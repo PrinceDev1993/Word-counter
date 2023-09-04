@@ -1,0 +1,58 @@
+/* Remove the browser's default spacing */
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+/* style for the entire body */
+body {
+    margin-top: 50px;
+}
+/* style for the h1 tag */
+h1 {
+    text-align: center;
+    color: #333;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+}
+.txtareadiv {
+    display: flex;
+    justify-content: center;
+}
+/* style for the textarea tag */
+textarea {
+    width: 90%;
+    max-width: 900px;
+    height: 250px;
+    padding: 10px;
+    font-size: 30px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+/* style for the word count div tag */
+.wordCount {
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #555;
+}
+
+/* style for the character count div tag */
+.charCount {
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: #777;
+}
+
+/* style for the unique count div tag */
+.uniqueCount {
+    text-align: center;
+    font-size: 30px;
+    color: #777;
+}
